@@ -21,7 +21,11 @@ let myApartment = Apartment(animals:[sinatra, cary, snoopy])
 
 // Choose an animal to invoke a method
 let randomNumber = Int(arc4random_uniform(3))
-let farmAnimal = myFarm.animals![randomNumber]
-let cityAnimal = myApartment.animals![randomNumber]
-farmAnimal.scurry()
-cityAnimal.deliverMessage()
+let farmAnimal = myFarm.animals[randomNumber]
+let cityAnimal = myApartment.animals[randomNumber]
+if let rat = farmAnimal as? Rat {
+    rat.scurry()
+}
+if let pigeon = cityAnimal as? Pigeon {
+    pigeon.deliverMessage()
+}
