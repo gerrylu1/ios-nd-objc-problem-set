@@ -34,3 +34,9 @@ Carthage/Build
 
 # Ignore those pesky DS_Store files!
 .DS_Store
+
+# Ignore those pesky AppleDouble files!
+.AppleDouble
+
+# Thumbnails
+._*
