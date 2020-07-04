@@ -2,8 +2,8 @@
 //  main.m
 //  Guitar_SwiftSpecific
 //
-//  Created by Gabrielle Miller-Messner on 4/13/16.
-//  Copyright © 2016 Gabrielle Miller-Messner. All rights reserved.
+//  Created by Gerry Low on 2020-07-04.
+//  Copyright © 2020 Gerry Low. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
