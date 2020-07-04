@@ -9,17 +9,17 @@
 import Cocoa
 
 
-enum error: Error {
+enum error: Int, Error {
     case Broken
     case OutOfTune
 }
 
-struct GuitarString {
+class GuitarString {
     
     var broken: Bool = false
     var outOfTune: Bool = false
     
-    mutating func pluck(velocity: Float) throws {
+    func pluck(velocity: Float) throws {
         if broken {
             // can't play a broken string
             throw error.Broken

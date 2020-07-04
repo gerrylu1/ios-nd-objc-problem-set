@@ -12,7 +12,7 @@ class Guitarist: NSObject {
     
     let guitar:Guitar = Guitar(frets: [Fret()], strings: [GuitarString()])
     
-    func perform(notes: [Note]) {
+    @objc func perform(notes: [Note]) {
         for note in notes {
             do {
                 try guitar.playNote(note: note)
