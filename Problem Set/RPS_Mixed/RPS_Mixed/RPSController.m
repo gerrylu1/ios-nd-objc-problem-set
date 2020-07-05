@@ -7,6 +7,7 @@
 //
 
 #import "RPSController.h"
+#import "RPS_Mixed-Swift.h"
 
 @implementation RPSController
 
@@ -44,7 +45,7 @@
 }
 
 -(NSString*)resultString:(RPSGame*)game {
-    return [game.firstTurn defeats:game.secondTurn] ? @"You Win!" : @"You Lose!";
+    return [game.firstTurn defeatsWithOpponent:game.secondTurn] ? @"You Win!" : @"You Lose!";
 }
 
 @end

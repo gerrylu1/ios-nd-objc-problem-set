@@ -14,9 +14,9 @@ import Cocoa
 
 class RPSTurn: NSObject {
     
-    var move: Move
+    @objc var move: Move
     
-    init(move: Move) {
+    @objc init(move: Move) {
         self.move = move
     }
     
@@ -33,7 +33,7 @@ class RPSTurn: NSObject {
     }
     
     // The defeats method defines the hierarchy of moves, Rock defeats Scissors etc.
-    func defeats(opponent: RPSTurn) -> Bool {
+    @objc func defeats(opponent: RPSTurn) -> Bool {
         switch (self.move, opponent.move) {
         case (.Paper, .Rock), (.Scissors, .Paper), (.Rock, .Scissors):
             return true
@@ -42,7 +42,7 @@ class RPSTurn: NSObject {
         }
     }
     
-    func stringForMessage() -> String {
+    @objc func stringForMessage() -> String {
         
         switch (self.move) {
         case .Rock:

@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RPSGame.h"
+
+typedef NS_ENUM(NSInteger, Move);
 
 @interface RPSController : NSObject
 

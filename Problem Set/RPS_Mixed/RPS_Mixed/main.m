@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RPSController.h"
+#import "RPS_Mixed-Swift.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
