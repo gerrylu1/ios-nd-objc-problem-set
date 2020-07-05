@@ -7,16 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#include "GuitarString-Swift.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
-        // a. Create an instance of the class GuitarString
-        // b. Create an NSError
-        // c. Call the method pluck(velocity: Float)
-        // d. Check if an error was returned
-        // e. Log an error if one was returned
-        
+        GuitarString *string = [[GuitarString alloc] init];
+        NSError *error;
+        [string pluckWithVelocity:0.9 error:&error];
+        if(error) {
+            NSLog(@"Error: %@", error);
+        }
     }
     return 0;
 }

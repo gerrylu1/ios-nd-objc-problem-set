@@ -19,7 +19,7 @@ class GuitarString: NSObject {
     var broken: Bool = false
     var outOfTune: Bool = false
     
-    func pluck(velocity: Float) throws {
+    @objc func pluck(velocity: Float) throws {
         if broken {
             // can't play a broken string
             throw GuitarStringError.Broken
