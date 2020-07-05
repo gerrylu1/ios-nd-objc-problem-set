@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDD4AA471CBF15BA00602B3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AA461CBF15BA00602B3E /* main.m */; };
-		EDD4AA4F1CBF15CD00602B3E /* GuitarString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4AA4E1CBF15CD00602B3E /* GuitarString.swift */; };
+		EEBBE82824B1E3A20012282E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBE82724B1E3A20012282E /* main.m */; };
+		EEBBE83024B1E3B60012282E /* GuitarString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBBE82F24B1E3B60012282E /* GuitarString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EDD4AA411CBF15BA00602B3E /* CopyFiles */ = {
+		EEBBE82224B1E3A20012282E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EDD4AA431CBF15BA00602B3E /* GuitarString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GuitarString; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDD4AA461CBF15BA00602B3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EDD4AA4D1CBF15CD00602B3E /* GuitarString-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuitarString-Bridging-Header.h"; sourceTree = "<group>"; };
-		EDD4AA4E1CBF15CD00602B3E /* GuitarString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarString.swift; sourceTree = "<group>"; };
+		EEBBE82424B1E3A20012282E /* GuitarString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GuitarString; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBBE82724B1E3A20012282E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEBBE82E24B1E3B50012282E /* GuitarString-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuitarString-Bridging-Header.h"; sourceTree = "<group>"; };
+		EEBBE82F24B1E3B60012282E /* GuitarString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuitarString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDD4AA401CBF15BA00602B3E /* Frameworks */ = {
+		EEBBE82124B1E3A20012282E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,28 +41,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDD4AA3A1CBF15BA00602B3E = {
+		EEBBE81B24B1E3A10012282E = {
 			isa = PBXGroup;
 			children = (
-				EDD4AA451CBF15BA00602B3E /* GuitarString */,
-				EDD4AA441CBF15BA00602B3E /* Products */,
+				EEBBE82624B1E3A20012282E /* GuitarString */,
+				EEBBE82524B1E3A20012282E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDD4AA441CBF15BA00602B3E /* Products */ = {
+		EEBBE82524B1E3A20012282E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDD4AA431CBF15BA00602B3E /* GuitarString */,
+				EEBBE82424B1E3A20012282E /* GuitarString */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDD4AA451CBF15BA00602B3E /* GuitarString */ = {
+		EEBBE82624B1E3A20012282E /* GuitarString */ = {
 			isa = PBXGroup;
 			children = (
-				EDD4AA461CBF15BA00602B3E /* main.m */,
-				EDD4AA4E1CBF15CD00602B3E /* GuitarString.swift */,
-				EDD4AA4D1CBF15CD00602B3E /* GuitarString-Bridging-Header.h */,
+				EEBBE82724B1E3A20012282E /* main.m */,
+				EEBBE82F24B1E3B60012282E /* GuitarString.swift */,
+				EEBBE82E24B1E3B50012282E /* GuitarString-Bridging-Header.h */,
 			);
 			path = GuitarString;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDD4AA421CBF15BA00602B3E /* GuitarString */ = {
+		EEBBE82324B1E3A20012282E /* GuitarString */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDD4AA4A1CBF15BA00602B3E /* Build configuration list for PBXNativeTarget "GuitarString" */;
+			buildConfigurationList = EEBBE82B24B1E3A20012282E /* Build configuration list for PBXNativeTarget "GuitarString" */;
 			buildPhases = (
-				EDD4AA3F1CBF15BA00602B3E /* Sources */,
-				EDD4AA401CBF15BA00602B3E /* Frameworks */,
-				EDD4AA411CBF15BA00602B3E /* CopyFiles */,
+				EEBBE82024B1E3A20012282E /* Sources */,
+				EEBBE82124B1E3A20012282E /* Frameworks */,
+				EEBBE82224B1E3A20012282E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -84,79 +84,92 @@
 			);
 			name = GuitarString;
 			productName = GuitarString;
-			productReference = EDD4AA431CBF15BA00602B3E /* GuitarString */;
+			productReference = EEBBE82424B1E3A20012282E /* GuitarString */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDD4AA3B1CBF15BA00602B3E /* Project object */ = {
+		EEBBE81C24B1E3A10012282E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Gabrielle Miller-Messner";
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Gerry Low";
 				TargetAttributes = {
-					EDD4AA421CBF15BA00602B3E = {
-						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
+					EEBBE82324B1E3A20012282E = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
-			buildConfigurationList = EDD4AA3E1CBF15BA00602B3E /* Build configuration list for PBXProject "GuitarString" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = EEBBE81F24B1E3A10012282E /* Build configuration list for PBXProject "GuitarString" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = EDD4AA3A1CBF15BA00602B3E;
-			productRefGroup = EDD4AA441CBF15BA00602B3E /* Products */;
+			mainGroup = EEBBE81B24B1E3A10012282E;
+			productRefGroup = EEBBE82524B1E3A20012282E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDD4AA421CBF15BA00602B3E /* GuitarString */,
+				EEBBE82324B1E3A20012282E /* GuitarString */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDD4AA3F1CBF15BA00602B3E /* Sources */ = {
+		EEBBE82024B1E3A20012282E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD4AA4F1CBF15CD00602B3E /* GuitarString.swift in Sources */,
-				EDD4AA471CBF15BA00602B3E /* main.m in Sources */,
+				EEBBE83024B1E3B60012282E /* GuitarString.swift in Sources */,
+				EEBBE82824B1E3A20012282E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EDD4AA481CBF15BA00602B3E /* Debug */ = {
+		EEBBE82924B1E3A20012282E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -170,38 +183,51 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		EDD4AA491CBF15BA00602B3E /* Release */ = {
+		EEBBE82A24B1E3A20012282E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -209,60 +235,72 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
-		EDD4AA4B1CBF15BA00602B3E /* Debug */ = {
+		EEBBE82C24B1E3A20012282E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU6WP44FZA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GuitarString/GuitarString-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		EDD4AA4C1CBF15BA00602B3E /* Release */ = {
+		EEBBE82D24B1E3A20012282E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU6WP44FZA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GuitarString/GuitarString-Bridging-Header.h";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDD4AA3E1CBF15BA00602B3E /* Build configuration list for PBXProject "GuitarString" */ = {
+		EEBBE81F24B1E3A10012282E /* Build configuration list for PBXProject "GuitarString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDD4AA481CBF15BA00602B3E /* Debug */,
-				EDD4AA491CBF15BA00602B3E /* Release */,
+				EEBBE82924B1E3A20012282E /* Debug */,
+				EEBBE82A24B1E3A20012282E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDD4AA4A1CBF15BA00602B3E /* Build configuration list for PBXNativeTarget "GuitarString" */ = {
+		EEBBE82B24B1E3A20012282E /* Build configuration list for PBXNativeTarget "GuitarString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDD4AA4B1CBF15BA00602B3E /* Debug */,
-				EDD4AA4C1CBF15BA00602B3E /* Release */,
+				EEBBE82C24B1E3A20012282E /* Debug */,
+				EEBBE82D24B1E3A20012282E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDD4AA3B1CBF15BA00602B3E /* Project object */;
+	rootObject = EEBBE81C24B1E3A10012282E /* Project object */;
 }
