@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#include "GuitarString-Swift.h"
+#import "GuitarString-Swift.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
