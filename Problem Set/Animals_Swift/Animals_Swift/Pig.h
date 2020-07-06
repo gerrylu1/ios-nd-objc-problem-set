@@ -10,4 +10,6 @@
 
 @interface Pig : NSObject
 
+-(void)wallow;
+
 @end
