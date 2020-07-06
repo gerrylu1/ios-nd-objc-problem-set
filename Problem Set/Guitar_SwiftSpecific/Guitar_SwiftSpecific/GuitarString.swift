@@ -14,7 +14,7 @@ enum error: Int, Error {
     case OutOfTune
 }
 
-class GuitarString {
+class GuitarString: NSObject {
     
     var broken: Bool = false
     var outOfTune: Bool = false
